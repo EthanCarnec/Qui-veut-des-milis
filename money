@@ -1,0 +1,34 @@
+def argent(points):
+    if points==0:
+        print ("aucun argent de gagné")
+    if points==1 :
+        argent = 100
+    elif points == 2 :
+        argent = 200
+    elif points == 3 :
+        argent = 300
+    elif points == 4 :
+        argent = 500
+    elif points == 5 :
+        argent = 1000
+    elif points == 6 :
+        argent = 2000
+    elif points == 7 :
+        argent = 4000
+    elif points == 8 :
+        argent = 8000
+    elif points == 9 :
+        argent = 12000
+    elif points == 10 :
+        argent = 24000
+    elif points == 11 :
+        argent = 36000
+    elif points == 12 :
+        argent = 72000
+    elif points == 13  :
+        argent = 150000
+    elif points == 14 :
+        argent = 300000
+    elif points == 15 :
+        argent = 1000000
+    return argent
